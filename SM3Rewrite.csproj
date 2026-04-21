@@ -46,18 +46,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity.cs" />
-    <Compile Include="EntityLvl2.cs" />
-    <Compile Include="FileIndexer.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Appendage.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Head.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Wing.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\WingedArm.cs" />
+    <Compile Include="SM\Body\BodyParts\Breast\Areola.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Arm.cs" />
+    <Compile Include="SM\Body\BodyParts\Ass.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Ovary.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Testicle.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Uterus.cs" />
+    <Compile Include="SM\Body\BodyParts\Horn.cs" />
+    <Compile Include="SM\Body\BodyParts\PupilType.cs" />
+    <Compile Include="SM\Body\BodyTemplate.cs" />
+    <Compile Include="SM\Unit\BasicUnit.cs" />
+    <Compile Include="SM\Body\Blood\BloodRhFactor.cs" />
+    <Compile Include="SM\Body\Blood\Bloodtype.cs" />
+    <Compile Include="SM\Body\Body.cs" />
+    <Compile Include="SM\Body\BodyPart.cs" />
+    <Compile Include="SM\Body\BodyParts\Breast\Breast.cs" />
+    <Compile Include="SM\Body\BodyParts\Breast\BreastSagLevel.cs" />
+    <Compile Include="SM\Body\BodyParts\Breast\BreastShape.cs" />
+    <Compile Include="SM\Buffs\BuffDefinition.cs" />
+    <Compile Include="SM\Buffs\BuffInstance.cs" />
+    <Compile Include="SM\Buffs\BuffManager.cs" />
+    <Compile Include="SM\Body\BodyParts\Underbust.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Clitoris.cs" />
+    <Compile Include="SM\Math\ColorRGB.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Dick.cs" />
+    <Compile Include="SM\Body\BodyParts\Ear.cs" />
+    <Compile Include="SM\BaseClasses\Entity.cs" />
+    <Compile Include="SM\BaseClasses\EntityLvl2.cs" />
+    <Compile Include="SM\Items\Equipment\Equipment.cs" />
+    <Compile Include="SM\Items\Equipment\EquipmentSlot.cs" />
+    <Compile Include="SM\Body\ErogenousZone.cs" />
+    <Compile Include="SM\Body\BodyParts\Eye.cs" />
+    <Compile Include="SM\Files\FileIndexer.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Foot.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Npc.cs" />
+    <Compile Include="SM\Body\Gender.cs" />
+    <Compile Include="SM\Body\BodyParts\Hair.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Hand.cs" />
+    <Compile Include="SM\Body\BodyParts\Hip.cs" />
+    <Compile Include="SM\Items\Item.cs" />
+    <Compile Include="SM\Items\ItemContainer.cs" />
+    <Compile Include="SM\Items\ItemContainerDisplay.cs" />
+    <Compile Include="SM\Items\ItemStack.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Leg.cs" />
+    <Compile Include="SM\Body\BodyParts\Lips.cs" />
+    <Compile Include="SM\Buffs\ModifierType.cs" />
+    <Compile Include="SM\Body\BodyParts\Mouth.cs" />
+    <Compile Include="SM\Event\EventParser.cs" />
+    <Compile Include="SM\Unit\Name.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Nipple.cs" />
+    <Compile Include="SM\Body\BodyParts\Nose.cs" />
+    <Compile Include="SM\Unit\Npc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SM\Unit\Rank.cs" />
+    <Compile Include="SM\Body\Size.cs" />
+    <Compile Include="SM\Body\SizeToSize.cs" />
+    <Compile Include="SM\Buffs\Stat.cs" />
+    <Compile Include="SM\Buffs\StatModifier.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Tail.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\Tentacle.cs" />
+    <Compile Include="SM\Body\BodyParts\Appendages\TentacleType.cs" />
+    <Compile Include="SM\Body\BodyParts\Tongue.cs" />
+    <Compile Include="SM\Body\BodyParts\Genitals\Vagina.cs" />
+    <Compile Include="SM\Math\Vector2.cs" />
+    <Compile Include="SM\Math\Vector2Int.cs" />
+    <Compile Include="SM\Body\BodyParts\Waist.cs" />
+    <Compile Include="SM\World.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

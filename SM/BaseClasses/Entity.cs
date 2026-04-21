@@ -15,7 +15,8 @@ namespace SM3Rewrite
             if (customID != null && SetID(customID))
                 return;
             else
-                customID = System.Guid.NewGuid().ToString();
+                id = System.Guid.NewGuid().ToString();
+            World.data.Add(id, this);
         }
         public string ID { get { return id; } }
 
@@ -35,8 +36,13 @@ namespace SM3Rewrite
             this.id = id.Trim();
             return true;
         }
-
-
-        
+        public bool AppendID(string id)
+        {
+            if (id == null) return false;
+            World.data.Remove(id);
+            this.id += "$"+id;
+            World.data.Add(id,this);
+            return true;
+        }
     }
 }
